@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "Calibri";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/calibri.woff2") format("woff2"),
+         url("../fonts/calibri.woff") format("woff"),
+         url("../fonts/calibri.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Calibri";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/calibri_bold.woff2") format("woff2"),
+         url("../fonts/calibri_bold.woff") format("woff"),
+         url("../fonts/calibri_bold.ttf") format("truetype");
+  }
+
+.header {
+    max-width: 1920px;
+    padding-left: 77px;
+    padding-right: 79px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 0 auto;
+    background: #FFF; 
+    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.09);
+}
+
+.header__logo {
+    width: 91px;
+    height: 84px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__info {
+    color: #6B7073;
+    font-family: "Calibri";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 115px;
+    margin: 0;
+    padding-right: 6px;
+    padding-bottom: 17px;
+    text-decoration: none;
+}
+
+.header__info:nth-child(2) {
+    padding-right: 86px;
+    padding-bottom: 0;
+}
+
+.header__info:nth-child(3) {
+    padding-right: 93px;
+    padding-bottom: 0;
+}
+
+.header__info:nth-child(4) {
+    padding-right: 97px;
+    padding-bottom: 0;
+}
+
+.header__search {
+    width: 268px;
+    padding: 12px 14px;
+    border-radius: 88px;
+    background: #FFF;
+    box-shadow: 2px 4px 11px 0px rgba(0, 0, 0, 0.17);
+    color: #C4C4C4;
+    font-family: "Calibri";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    box-sizing: border-box;
+    border: none;
+}
+
+.header__button-search {
+    width: 20px;
+    height: 21px;
+    position: absolute;
+    z-index: 2;
+    background: 0;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    top: 9px;
+    right: 15px;
+}
+
+.header__search-container {
+    position: relative;
+    margin-right: 117px;
+}
+
+.header__image-menu {
+    width: 33px;
+    height: 24px;
+    background: 0;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.breadcrumb {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.breadcrumb li+li:before {
+    padding: 6px 8px;
+    padding-left: 4px;
+    content: url("/images/arrow.svg");
+  }
+
+  .breadcrumb li {
+    display: inline;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .breadcrumb__link {
+    color: #C4C4C4;
+    font-family: "Calibri";
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    }
+
+    .active {
+        color: #6B7073;
+    }
+
+  .main {
+    max-width: 1920px;
+    padding-left: 79px;
+    padding-right: 81px;
+    padding-bottom: 91px;
+    padding-top: 29px;
+    margin: 0 auto;
+  }
