@@ -31,6 +31,10 @@
     box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.09);
 }
 
+.header_type_burger {
+  box-shadow: none;
+}
+
 .header__logo {
     width: 91px;
     height: 84px;
@@ -69,7 +73,7 @@
     padding-bottom: 0;
 }
 
-.header__search {
+.search__input {
     width: 268px;
     padding: 12px 14px;
     border-radius: 88px;
@@ -84,7 +88,7 @@
     border: none;
 }
 
-.header__button-search {
+.search__button {
     width: 20px;
     height: 21px;
     position: absolute;
@@ -97,7 +101,7 @@
     right: 15px;
 }
 
-.header__search-container {
+.search {
     position: relative;
     margin-right: 117px;
 }
@@ -115,6 +119,7 @@
     padding: 0;
     list-style: none;
     width: 100%;
+    margin: 0;
     margin-bottom: 20px;
 }
 
@@ -149,4 +154,262 @@
     padding-bottom: 91px;
     padding-top: 29px;
     margin: 0 auto;
+    box-sizing: border-box;
+
+  }
+
+    .rent {
+        display: flex;
+        flex-direction: row;
+    }
+
+  .rent__image {
+    width: 1164px;
+    height: 637px;
+    margin-right: 30px;
+  }
+
+  .title {
+    color: #151516;
+    font-family: "Calibri";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+  }
+
+  .rent__paragraph {
+    padding-top: 24px;
+    color: #000;
+    font-family: "Calibri";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding-bottom: 35px;
+  }
+
+  .rent__container {
+    max-width: 567px;
+  }
+
+  .rent__save {
+    color: #151516;
+    font-family: "Calibri";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding-right: 10px;
+  }
+
+  .rent__icon-save {
+    width: 32px;
+    height: 32px;
+  }
+
+  .rent__save-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 65px;
+  }
+
+  .rent__subtitle {
+    color: #151516;
+    font-family: "Calibri";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    padding-bottom: 34px;
+  }
+
+  .list-item {
+    color: #151516;
+    font-family: "Calibri";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 9px;
+    margin: 0;
+  }
+
+  .list__item::marker {
+    color: #CD3B31;
+    font-size: 20px;
+}
+
+  .list__item:last-of-type {
+    padding-bottom: 0;
+  }
+
+  .list {
+    margin: 0;
+    padding-inline-start: 15px;
+    margin-bottom: 50px;
+  }
+
+  .shops__image {
+    width: 306px;
+    height: 153px;
+    margin-right: 46px;
+  }
+
+  .shops__image:last-child {
+    margin-right: 30px;
+  }
+
+  .shops {
+    margin-top: 80px;
+  }
+
+  .shops__container {
+    margin-top: 24px;
+    display: flex;
+    position: relative;
+  }
+
+  .shops__slider {
+    width: 156px;
+    height: 9px;
+    position: absolute;
+    top: 183px;
+    left: 428px;
+  }
+
+  .info {
+    display: flex;
+    margin-top: 80px;
+  }
+
+  .info__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 189px;
+    margin-right: 105px;
+  }
+
+  .info__title {
+    color: #6B7073;
+    font-family: "Calibri";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    padding-bottom: 17px;
+  }
+
+  .info__subtitle {
+    color: #151516;
+    font-family: "Calibri";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    padding-bottom: 39px;
+  }
+
+  .info__subtitle:last-child {
+    padding-bottom: 0;
+  }
+
+  .info__image-first {
+    width: 567px;
+    height: 508px;
+    margin-right: 30px;
+  }
+
+  .info__image-second {
+    width: 862px;
+    height: 508px;
+  }
+
+  .image {
+    margin-top: 60px;
+    margin-bottom: 91px;
+    display: flex;
+  }
+
+  .image__photo {
+    width: 417px;
+    height: 359px;
+    margin-right: 30px;
+  }
+
+  .image__photo:nth-child(2) {
+    width: 566px;
+    height: 359px;
+  }
+
+  .image__photo:nth-child(3) {
+    width: 716px;
+    height: 359px;
+    margin-right: 0;
+  }
+
+  .footer {
+    padding: 41px 80px;
+    background: #FFF;
+    box-shadow: 0px 1px 44px 0px rgba(0, 0, 0, 0.12);
+    max-width: 1920px;
+    box-sizing: border-box;
+    display: flex;
+  }
+
+  .footer__logo {
+    width: 170px;
+    height: 147px;
+    margin-right: 128px;
+  }
+
+  .footer__item {
+    color: #151516;
+    font-family: "Calibri";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding-bottom: 32px;
+  }
+
+  .footer__item:last-child {
+    padding-bottom: 0;
+  }
+
+  .footer__container-info {
+    margin-right: 130px;
+  }
+
+  .footer__container-info:nth-child(2) {
+    margin-right: 112px;
+  }
+
+  .footer__container-info:nth-child(3) {
+    margin-right: 108px;
+  }
+
+  .icon {
+    margin-right: 22px;
+    margin-top: 54px;
+    width: 37px;
+    height: 37px;
+  }
+
+  .footer__text {
+    color: #151516;
+    font-family: "Calibri";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding-bottom: 21px;
+  }
+
+  .footer__text:last-child {
+    padding-bottom: 0;
+  }
+
+  .nav__link {
+
   }

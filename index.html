@@ -12,58 +12,200 @@
   </head>
   <body class="page">
     <header class="header">
-        <img className="header__logo" src="/images/logo.svg" alt="Логотип" />
-        <div class="header__menu">
-          <p class="header__info">Режим работы:</p>
-          <p class="header__info">пн-вс 10:00-21:00 Лента 08:00-22:00</p>
-          <a href="#" class="header__info">Контакты</a>
-          <a href="#" class="header__info">Карта ТЦ</a>
-          <div class="header__search-container">
+      <img class="header__logo" src="/images/logo.svg" alt="Логотип" />
+      <div class="header__menu">
+        <p class="header__info">Режим работы:</p>
+        <p class="header__info">пн-вс 10:00-21:00 Лента 08:00-22:00</p>
+        <a href="#" class="header__info">Контакты</a>
+        <a href="#" class="header__info">Карта ТЦ</a>
+        <div class="search">
+          <input
+            class="search__input"
+            type="text"
+            placeholder="Найти магазин"
+            required
+          />
+          <button class="search__button" type="submit">
+            <img src="/images/search.svg" alt="Кнопка поиска" />
+          </button>
+        </div>
+        <button class="header__image-menu">
+          <img src="/images/menu.svg" alt="Кнопка меню" />
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <nav>
+      <ul class="breadcrumb">
+        <li><a class="breadcrumb__link" href="#">Главная</a></li>
+        <li class="breadcrumb__link active">Аренда</li>
+      </ul>
+      </nav>
+      <div class="rent">
+        <img class="rent__image" src="/images/first.png" alt="фото" />
+        <div class="rent__container">
+          <h1 class="title">Аренда в ТУЦ “Сарафан”</h1>
+          <p class="rent__paragraph">
+            Торговый центр «Сарафан», расположенный по адресу: г. Тула, ул.
+            Путейская, д.5 (Площадь Московского вокзала), предлагает помещения в
+            аренду от собственника от 25 до 1000 кв. м.
+          </p>
+          <a class="rent__save-link" href="#">
+            <span class="rent__save">Скачать презентацию</span>
+            <img
+              class="rent__icon-save"
+              src="/images/save.svg"
+              alt="Ссылка сохранения"
+            />
+          </a>
+          <h3 class="rent__subtitle">
+            Преимущества аренды в нашем торговом центре:
+          </h3>
+          <ul class="list">
+            <li class="list__item">
+              ТЦ «Сарафан» находится в 5 минутах езды от центра города на
+              площади Московского вокзала на одной из самых оживленных улиц
+              города – Красноармейский проспект.
+            </li>
+            <li class="list__item">
+              Рядом жилой массив, пересечение основных транспортных и пешеходных
+              потоков –конечная остановка общественного транспорта,
+              железнодорожный вокзал.
+            </li>
+            <li class="list__item">
+              На территории ТЦ «Сарафан» есть бесплатная парковка для клиентов,
+              более 500 машиномест, удобный подъезд.
+            </li>
+            <li class="list__item">
+              Ежедневно наш ТЦ посещает порядка 10 000 тысяч человек различной
+              целевой аудитории
+            </li>
+            <li class="list__item">Демократичные цены за аренду площади</li>
+            <li class="list__item">
+              У нас Вы можете арендовать площадь под магазины белья, одежды и
+              обуви, салоны, точки общепита и др.
+            </li>
+          </ul>
+          <p class="list__item">
+            Открытие торговой точки в одном из оживленных мест города обеспечит
+            доходность, развитие и процветание Вашего бизнеса.
+          </p>
+        </div>
+      </div>
+      <div class="shops">
+        <h2 class="title">
+          Более 130 бутиков и магазинов уже арендуют у нас помещения
+        </h2>
+        <div class="shops__container">
+          <img class="shops__image" src="/images/familia.png" alt="familia" />
+          <img class="shops__image" src="/images/letual.png" alt="Лэтуаль" />
+          <img class="shops__image" src="/images/lenta.png" alt="Лента" />
+          <ul class="list">
+            <li class="list__item">
+              Якорные арендаторы - Лента, Детский Мир, Технопарк, Модис,
+              Familia, Читай город, Тутанхамон, Л'Этуаль
+            </li>
+            <li class="list__item">
+              Бренды - EWA, Artigli, Gerzedo, Goergo, Du monde, Petek, Neri
+              Karra, Ledy Collection, Paolo Conte, P'Cont, VINZER, Ace,
+              Tonnelli, Milavitsa, и др.
+            </li>
+            <li class="list__item">
+              Магазины спортивной одежды и инвентаря: Адреналин, Спорт Лайн
+            </li>
+            <li class="list__item">
+              Зона фудкорта - Burger King, Империя вкуса, Про Кофий, Добрая
+              сдоба
+            </li>
+            <li class="list__item">
+              Салоны связи: Билайн, Мегафон, YOTA, Связной, Теле2
+            </li>
+            <li class="list__item">
+              Зоосад, аптека «Здесь аптека», «Арт-оптика», Fresh Оптика, ковры,
+              салоны штор, текстиль Missis Hatson и Home TEX, салон Арт-Самовар,
+              посуда, подарки, картины, сувениры и другие.
+            </li>
+          </ul>
+          <img class="shops__slider" src="/images/slider.svg" alt="Слайдер" />
+        </div>
+      </div>
+      <div class="info">
+        <div>
+            <div class="info__container">
+                <h4 class="info__title">Общая площадь торгового центра</h4>
+                <p class="info__subtitle">25 816 м2</p>
+            </div>
+            <div class="info__container">
+                <h4 class="info__title">Площадь, сдаваемая
+                    в аренду</h4>
+                <p class="info__subtitle">16 675 м2</p>
+            </div>
+            <div class="info__container">
+                <h4 class="info__title">Парковка
+                    (машиномест)
+                    </h4>
+                <p class="info__subtitle">500</p>
+            </div>
+            <div class="info__container">
+                <h4 class="info__title">Посещаемость
+                    (в неделю)</h4>
+                <p class="info__subtitle">100 000 чел</p>
+            </div>
+        </div>
+        <img class="info__image-first" src="/images/first-info.png" alt="Слайдер" />
+        <img class="info__image-second" src="/images/second-info.png" alt="Слайдер" />
+      </div>
+      <div class="image">
+        <img class="image__photo" src="/images/image1.png" alt="фото" />
+        <img class="image__photo" src="/images/image2.png" alt="фото" />
+        <img class="image__photo" src="/images/image3.png" alt="фото" />
+      </div>
+    </main>
+    <footer class="footer">
+        <img class="footer__logo" src="/images/logo.svg" alt="Логотип" />
+        <div class="footer__container-info">
+            <p class="footer__item">Магазины</p>
+            <p class="footer__item">Кафе и рестораны</p>
+            <p class="footer__item">Услуги и сервисы</p>
+            <p class="footer__item">Развлечения</p>
+        </div>
+        <div class="footer__container-info">
+            <p class="footer__item">О нас</p>
+            <p class="footer__item">События</p>
+            <p class="footer__item">Галерея</p>
+        </div>
+        <div class="footer__container-info">
+            <p class="footer__item">Аренда</p>
+            <p class="footer__item">Контакты</p>
+            <p class="footer__item">Вакансии</p>
+        </div>
+        <div class="footer__container-info">
+            <p class="footer__item">Тендеры</p>
+            <p class="footer__item">Политика конфиденциальности</p>
+            <p class="footer__item">Карта ТЦ</p>
+        </div>
+        <div class="search">
             <input
-              class="header__search"
+              class="search__input"
               type="text"
               placeholder="Найти магазин"
               required
             />
-            <button class="header__button-search" type="submit">
+            <button class="search__button" type="submit">
               <img src="/images/search.svg" alt="Кнопка поиска" />
             </button>
-          </div>
-          <button class="header__image-menu">
-            <img src="/images/menu.svg" alt="Кнопка меню" />
-          </button>
-        </div>
-    </header>
-    <main class="main">
-        <ul class="breadcrumb">
-            <li><a  class="breadcrumb__link" href="#">Главная</a></li>
-            <li><a class="breadcrumb__link active" href="#">Аренда</a></li>
-          </ul>
-            <div class="rent">
-                <img class="rent__image" src="/images/first.png" alt="фото" />
-                <div>
-                    <h1>Аренда в ТУЦ “Сарафан”</h1>
-                    <p>Торговый центр «Сарафан», расположенный по адресу: г. Тула, ул. Путейская, д.5 (Площадь Московского вокзала), предлагает помещения в аренду от собственника от 25 до 1000 кв. м.</p>
-                    <a href="#">
-                        <span>Скачать презентацию</span>
-                        <img src="/images/save.svg" alt="Ссылка сохранения" />
-                    </a>
-                    <h3></h3>
-                    <ul class="">
-                        <li>ТЦ «Сарафан» находится в 5 минутах езды от центра города на площади Московского вокзала на одной из самых оживленных улиц города – Красноармейский проспект.</li>
-                        <li>Рядом жилой массив, пересечение основных транспортных и пешеходных потоков –конечная остановка общественного транспорта, железнодорожный вокзал.</li>
-                        <li>На территории ТЦ «Сарафан» есть бесплатная парковка для клиентов, более 500 машиномест, удобный подъезд.</li>
-                        <li>Ежедневно наш ТЦ посещает порядка 10 000 тысяч человек различной целевой аудитории</li>
-                        <li>Демократичные цены за аренду площади</li>
-                        <li>У нас Вы можете арендовать площадь под магазины белья, одежды и обуви, салоны, точки общепита и др. </li>
-                      </ul>
-                      <p>Открытие торговой точки в одном из оживленных мест города обеспечит доходность, развитие и процветание Вашего бизнеса.</p>
-                </div>
+            <div>
+                <img class="icon" src="/images/tg.svg" alt="TG" />
+                <img class="icon" src="/images/vk.svg" alt="VK" />
             </div>
-            <div class="shops"></div>
-            <div class="info"></div>
-            <div class="image"></div>
-    </main>
-    <footer class="footer"></footer>
+        </div>
+        <div class="footer__contacts">
+            <p class="footer__text">300041, Тульская обл.,
+                г. Тула, ул. Путейская, д. 5</p>
+            <p class="footer__text">ТЦ Сарафан: 10:00-21:00
+                Лента: 08:00-22:00</p>
+            <p class="footer__text">+7 (4872) 33-80-55</p>
+        </div>
+    </footer>
   </body>
 </html>
