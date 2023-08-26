@@ -1,34 +1,34 @@
 @font-face {
-    font-family: "Calibri";
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/calibri.woff2") format("woff2"),
-         url("../fonts/calibri.woff") format("woff"),
-         url("../fonts/calibri.ttf") format("truetype");
-  }
-  
-  @font-face {
-    font-family: "Calibri";
-    font-style: normal;
-    font-weight: 700;
-    src: url("../fonts/calibri_bold.woff2") format("woff2"),
-         url("../fonts/calibri_bold.woff") format("woff"),
-         url("../fonts/calibri_bold.ttf") format("truetype");
-  }
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/calibri.woff2") format("woff2"),
+    url("../fonts/calibri.woff") format("woff"),
+    url("../fonts/calibri.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/calibri_bold.woff2") format("woff2"),
+    url("../fonts/calibri_bold.woff") format("woff"),
+    url("../fonts/calibri_bold.ttf") format("truetype");
+}
 
 .header {
-    max-width: 1920px;
-    padding-left: 77px;
-    padding-right: 79px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    align-items: center;
-    margin: 0 auto;
-    background: #FFF; 
-    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.09);
+  max-width: 1920px;
+  padding-left: 77px;
+  padding-right: 79px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.09);
 }
 
 .header_type_burger {
@@ -36,460 +36,471 @@
 }
 
 .header__logo {
-    width: 91px;
-    height: 84px;
+  width: 91px;
+  height: 84px;
 }
 
 .header__menu {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header__info {
-    color: #6B7073;
-    font-family: "Calibri";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: normal;
-    max-width: 115px;
-    margin: 0;
-    padding-right: 6px;
-    padding-bottom: 17px;
-    text-decoration: none;
+  color: #6b7073;
+  font-family: "Calibri";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 115px;
+  margin: 0;
+  padding-right: 6px;
+  padding-bottom: 17px;
+  text-decoration: none;
 }
 
 .header__info:nth-child(2) {
-    padding-right: 86px;
-    padding-bottom: 0;
+  padding-right: 86px;
+  padding-bottom: 0;
 }
 
 .header__info:nth-child(3) {
-    padding-right: 93px;
-    padding-bottom: 0;
+  padding-right: 93px;
+  padding-bottom: 0;
 }
 
 .header__info:nth-child(4) {
-    padding-right: 97px;
-    padding-bottom: 0;
+  padding-right: 97px;
+  padding-bottom: 0;
 }
 
 .search__input {
-    width: 268px;
-    padding: 12px 14px;
-    border-radius: 88px;
-    background: #FFF;
-    box-shadow: 2px 4px 11px 0px rgba(0, 0, 0, 0.17);
-    color: #C4C4C4;
-    font-family: "Calibri";
-    font-size: 12px;
-    font-weight: 400;
-    line-height: normal;
-    box-sizing: border-box;
-    border: none;
+  width: 268px;
+  padding: 12px 14px;
+  border-radius: 88px;
+  background: #fff;
+  box-shadow: 2px 4px 11px 0px rgba(0, 0, 0, 0.17);
+  color: #c4c4c4;
+  font-family: "Calibri";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  box-sizing: border-box;
+  border: none;
 }
 
 .search__button {
-    width: 20px;
-    height: 21px;
-    position: absolute;
-    z-index: 2;
-    background: 0;
-    border: 0;
-    padding: 0;
-    cursor: pointer;
-    top: 9px;
-    right: 15px;
+  width: 20px;
+  height: 21px;
+  position: absolute;
+  z-index: 2;
+  background: 0;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  top: 9px;
+  right: 15px;
 }
 
 .search {
-    position: relative;
-    margin-right: 117px;
+  position: relative;
+  margin-right: 117px;
+}
+
+.search_type_burger {
+  margin-right: 125px;
 }
 
 .header__image-menu {
-    width: 33px;
-    height: 24px;
-    background: 0;
-    border: 0;
-    padding: 0;
-    cursor: pointer;
+  width: 33px;
+  height: 24px;
+  background: 0;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.header__image-close {
+  width: 25px;
+  height: 25px;
+  background: 0;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
 }
 
 .breadcrumb {
-    padding: 0;
-    list-style: none;
-    width: 100%;
-    margin: 0;
-    margin-bottom: 20px;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
-.breadcrumb li+li:before {
-    padding: 6px 8px;
-    padding-left: 4px;
-    content: url("/images/arrow.svg");
-  }
-
-  .breadcrumb li {
-    display: inline;
-    font-size: 14px;
-    cursor: pointer;
-  }
-
-  .breadcrumb__link {
-    color: #C4C4C4;
-    font-family: "Calibri";
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
-    }
-
-    .active {
-        color: #6B7073;
-    }
-
-  .main {
-    max-width: 1920px;
-    padding-left: 79px;
-    padding-right: 81px;
-    padding-bottom: 91px;
-    padding-top: 29px;
-    margin: 0 auto;
-    box-sizing: border-box;
-
-  }
-
-    .rent {
-        display: flex;
-        flex-direction: row;
-    }
-
-  .rent__image {
-    width: 1164px;
-    height: 637px;
-    margin-right: 30px;
-  }
-
-  .title {
-    color: #151516;
-    font-family: "Calibri";
-    font-size: 48px;
-    font-weight: 700;
-    line-height: normal;
-    margin: 0;
-  }
-
-  .rent__paragraph {
-    padding-top: 24px;
-    color: #000;
-    font-family: "Calibri";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0;
-    padding-bottom: 35px;
-  }
-
-  .rent__container {
-    max-width: 567px;
-  }
-
-  .rent__save {
-    color: #151516;
-    font-family: "Calibri";
-    font-size: 24px;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0;
-    padding-right: 10px;
-  }
-
-  .rent__icon-save {
-    width: 32px;
-    height: 32px;
-  }
-
-  .rent__save-link {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    margin-bottom: 65px;
-  }
-
-  .rent__subtitle {
-    color: #151516;
-    font-family: "Calibri";
-    font-size: 24px;
-    font-weight: 700;
-    line-height: normal;
-    margin: 0;
-    padding-bottom: 34px;
-  }
-
-  .list-item {
-    color: #151516;
-    font-family: "Calibri";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: normal;
-    padding-bottom: 9px;
-    margin: 0;
-  }
-
-  .list__item::marker {
-    color: #CD3B31;
-    font-size: 20px;
+.breadcrumb li + li:before {
+  padding: 6px 8px;
+  padding-left: 4px;
+  content: url("/images/arrow.svg");
 }
 
-  .list__item:last-of-type {
-    padding-bottom: 0;
-  }
+.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+  cursor: pointer;
+}
 
-  .list {
-    margin: 0;
-    padding-inline-start: 15px;
-    margin-bottom: 50px;
-  }
+.breadcrumb__link {
+  color: #c4c4c4;
+  font-family: "Calibri";
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
 
-  .shops__image {
-    width: 306px;
-    height: 153px;
-    margin-right: 46px;
-  }
+.active {
+  color: #6b7073;
+}
 
-  .shops__image:last-child {
-    margin-right: 30px;
-  }
+.main {
+  max-width: 1920px;
+  padding-left: 79px;
+  padding-right: 81px;
+  padding-bottom: 91px;
+  padding-top: 29px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 
-  .shops {
-    margin-top: 80px;
-  }
+.rent {
+  display: flex;
+  flex-direction: row;
+}
 
-  .shops__container {
-    margin-top: 24px;
-    display: flex;
-    position: relative;
-  }
+.rent__image {
+  width: 1164px;
+  height: 637px;
+  margin-right: 30px;
+}
 
-  .shops__slider {
-    width: 156px;
-    height: 9px;
-    position: absolute;
-    top: 183px;
-    left: 428px;
-  }
+.title {
+  color: #151516;
+  font-family: "Calibri";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
 
-  .info {
-    display: flex;
-    margin-top: 80px;
-  }
+.rent__paragraph {
+  padding-top: 24px;
+  color: #000;
+  font-family: "Calibri";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding-bottom: 35px;
+}
 
-  .info__container {
-    display: flex;
-    flex-direction: column;
-    max-width: 189px;
-    margin-right: 105px;
-  }
+.rent__container {
+  max-width: 567px;
+}
 
-  .info__title {
-    color: #6B7073;
-    font-family: "Calibri";
-    font-size: 16px;
-    font-weight: 700;
-    line-height: normal;
-    margin: 0;
-    padding-bottom: 17px;
-  }
+.rent__save {
+  color: #151516;
+  font-family: "Calibri";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding-right: 10px;
+}
 
-  .info__subtitle {
-    color: #151516;
-    font-family: "Calibri";
-    font-size: 36px;
-    font-weight: 700;
-    line-height: normal;
-    margin: 0;
-    padding-bottom: 39px;
-  }
+.rent__icon-save {
+  width: 32px;
+  height: 32px;
+}
 
-  .info__subtitle:last-child {
-    padding-bottom: 0;
-  }
+.rent__save-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 65px;
+}
 
-  .info__image-first {
-    width: 567px;
-    height: 508px;
-    margin-right: 30px;
-  }
+.rent__subtitle {
+  color: #151516;
+  font-family: "Calibri";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  padding-bottom: 34px;
+}
 
-  .info__image-second {
-    width: 862px;
-    height: 508px;
-  }
+.list-item {
+  color: #151516;
+  font-family: "Calibri";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 9px;
+  margin: 0;
+}
 
-  .image {
-    margin-top: 60px;
-    margin-bottom: 91px;
-    display: flex;
-  }
+.list__item::marker {
+  color: #cd3b31;
+  font-size: 20px;
+}
 
-  .image__photo {
-    width: 417px;
-    height: 359px;
-    margin-right: 30px;
-  }
+.list__item:last-of-type {
+  padding-bottom: 0;
+}
 
-  .image__photo:nth-child(2) {
-    width: 566px;
-    height: 359px;
-  }
+.list {
+  margin: 0;
+  padding-inline-start: 15px;
+  margin-bottom: 50px;
+}
 
-  .image__photo:nth-child(3) {
-    width: 716px;
-    height: 359px;
-    margin-right: 0;
-  }
+.shops__image {
+  width: 306px;
+  height: 153px;
+  margin-right: 46px;
+}
 
-  .footer {
-    padding: 41px 80px;
-    background: #FFF;
-    box-shadow: 0px 1px 44px 0px rgba(0, 0, 0, 0.12);
-    max-width: 1920px;
-    box-sizing: border-box;
-    display: flex;
-  }
+.shops__image:last-child {
+  margin-right: 30px;
+}
 
-  .footer__logo {
-    width: 170px;
-    height: 147px;
-    margin-right: 128px;
-  }
+.shops {
+  margin-top: 80px;
+}
 
-  .footer__item {
-    color: #151516;
-    font-family: "Calibri";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0;
-    padding-bottom: 32px;
-  }
+.shops__container {
+  margin-top: 24px;
+  display: flex;
+  position: relative;
+}
 
-  .footer__item:last-child {
-    padding-bottom: 0;
-  }
+.shops__slider {
+  width: 156px;
+  height: 9px;
+  position: absolute;
+  top: 183px;
+  left: 428px;
+}
 
-  .footer__container-info {
-    margin-right: 130px;
-  }
+.info {
+  display: flex;
+  margin-top: 80px;
+}
 
-  .footer__container-info:nth-child(2) {
-    margin-right: 112px;
-  }
+.info__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 189px;
+  margin-right: 105px;
+}
 
-  .footer__container-info:nth-child(3) {
-    margin-right: 108px;
-  }
+.info__title {
+  color: #6b7073;
+  font-family: "Calibri";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  padding-bottom: 17px;
+}
 
-  .icon {
-    margin-right: 22px;
-    margin-top: 54px;
-    width: 37px;
-    height: 37px;
-  }
+.info__subtitle {
+  color: #151516;
+  font-family: "Calibri";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  padding-bottom: 39px;
+}
 
-  .footer__text {
-    color: #151516;
-    font-family: "Calibri";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0;
-    padding-bottom: 21px;
-  }
+.info__subtitle:last-child {
+  padding-bottom: 0;
+}
 
-  .footer__text:last-child {
-    padding-bottom: 0;
-  }
+.info__image-first {
+  width: 567px;
+  height: 508px;
+  margin-right: 30px;
+}
 
-  .nav {
-    padding-inline-start: 0;
-    padding-left: 82px;
-    padding-right: 67px;
-    padding-top: 31px;
-    padding-bottom: 31px;
-    border-right: 1px solid #C4C4C4;
-    position: fixed;
-    left: 0;
-    margin: 0;
-    margin-bottom: 41px;
-  }
+.info__image-second {
+  width: 862px;
+  height: 508px;
+}
 
-  .nav__link {
-    color: #151516;
-    font-family: "Calibri";
-    font-size: 20px;
-    font-weight: 400;
-    line-height: normal;
-    padding-bottom: 48px;
-    list-style-type: none;
-  }
+.image {
+  margin-top: 60px;
+  margin-bottom: 91px;
+  display: flex;
+}
 
-  .nav__link:last-child {
-    padding-bottom: 0;
-  }
+.image__photo {
+  width: 417px;
+  height: 359px;
+  margin-right: 30px;
+}
 
-  .main-burger {
-    display: flex;
-    max-width: 1920px;
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding-left: 378px;
-    padding-right: 212px;
-    padding-top: 19px;
-    padding-bottom: 120px;
-  }
+.image__photo:nth-child(2) {
+  width: 566px;
+  height: 359px;
+}
 
-  .main-burger__title {
-    color: #151516;
-    font-family: "Calibri";
-    font-size: 24px;
-    font-weight: 700;
-    line-height: normal;
-    margin: 0;
-    padding-bottom: 34px;
-  }
+.image__photo:nth-child(3) {
+  width: 716px;
+  height: 359px;
+  margin-right: 0;
+}
 
-  .main-burger__container {
-    max-width: 242px;
-    margin-right: 182px;
+.footer {
+  padding: 41px 80px;
+  background: #fff;
+  box-shadow: 0px 1px 44px 0px rgba(0, 0, 0, 0.12);
+  max-width: 1920px;
+  box-sizing: border-box;
+  display: flex;
+}
 
-  }
+.footer__logo {
+  width: 170px;
+  height: 147px;
+  margin-right: 128px;
+}
 
-  .main-burger__container:nth-child(2) {
-    margin-right: 105px;
-    margin-top: 64px;
-  }
+.footer__item {
+  color: #151516;
+  font-family: "Calibri";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding-bottom: 32px;
+}
 
-  .main-burger__container:nth-child(3) {
-    margin-right: 51px;
-  }
+.footer__item:last-child {
+  padding-bottom: 0;
+}
 
-  .main-burger__container:nth-child(4) {
-    margin-right: 121px;
-  }
+.footer__container-info {
+  margin-right: 130px;
+}
 
-  .main-burger__container:last-child {
-    margin-right: 0;
-  }
+.footer__container-info:nth-child(2) {
+  margin-right: 112px;
+}
 
-  .main-burger__subtitle {
-    color: #151516;
-    font-family: "Calibri";
-    font-size: 16px;
-    font-weight: 400;
-    margin: 0;
-    padding-bottom: 40px;
-  }
+.footer__container-info:nth-child(3) {
+  margin-right: 108px;
+}
 
-  .main-burger__subtitle:last-child {
-    padding-bottom: 0;
-  }
+.icon {
+  margin-right: 22px;
+  margin-top: 54px;
+  width: 37px;
+  height: 37px;
+}
+
+.footer__text {
+  color: #151516;
+  font-family: "Calibri";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  padding-bottom: 21px;
+}
+
+.footer__text:last-child {
+  padding-bottom: 0;
+}
+
+.nav {
+  padding-inline-start: 0;
+  padding-left: 82px;
+  padding-right: 67px;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  border-right: 1px solid #c4c4c4;
+  position: fixed;
+  left: 0;
+  margin: 0;
+  margin-bottom: 41px;
+}
+
+.nav__link {
+  color: #151516;
+  font-family: "Calibri";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 48px;
+  list-style-type: none;
+}
+
+.nav__link:last-child {
+  padding-bottom: 0;
+}
+
+.main-burger {
+  display: flex;
+  max-width: 1920px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-left: 378px;
+  padding-right: 212px;
+  padding-top: 19px;
+  padding-bottom: 120px;
+}
+
+.main-burger__title {
+  color: #151516;
+  font-family: "Calibri";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  padding-bottom: 34px;
+}
+
+.main-burger__container {
+  max-width: 242px;
+  margin-right: 182px;
+}
+
+.main-burger__container:nth-child(2) {
+  margin-right: 105px;
+  margin-top: 64px;
+}
+
+.main-burger__container:nth-child(3) {
+  margin-right: 51px;
+}
+
+.main-burger__container:nth-child(4) {
+  margin-right: 121px;
+}
+
+.main-burger__container:last-child {
+  margin-right: 0;
+}
+
+.main-burger__subtitle {
+  color: #151516;
+  font-family: "Calibri";
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+.main-burger__subtitle:last-child {
+  padding-bottom: 0;
+}
