@@ -552,6 +552,30 @@
   }
 }
 
+@media screen and (max-width: 1880px) {
+  .footer__container-info {
+    margin-right: 50px;
+  }
+  
+  .footer__container-info:nth-child(2) {
+    margin-right: 50px;
+  }
+  
+  .footer__container-info:nth-child(3) {
+    margin-right: 60px;
+  }
+  .footer__container-info_type_mini {
+    display: none;
+  }
+
+  .search_type_medium {
+    margin-right: 50px;
+  }
+  .footer__logo {
+    margin-right: 50px;
+  }
+}
+
 @media screen and (max-width: 1770px) {
   .info__image-first {
     width: 450px;
@@ -563,21 +587,9 @@
     height: 408px;
   }
 
-  .footer__container-info {
-    display: none;
-  }
-
-  .footer__container-info_type_mini {
-    display: block;
-  }
-
   .footer__logo {
     width: 173px;
     height: 161px;
-  }
-
-  .footer__item_type_mini {
-    display: block;
   }
 }
 
@@ -601,21 +613,32 @@
 }
 
 @media screen and (max-width: 1550px) {
+
   .image__photo {
-    width: 450px;
-    height: 408px;
+    width: 550px;
+    height: 508px;
     margin-right: 0px;
     margin-bottom: 40px;
   }
+
+  .info__image-first {
+    width: 550px;
+    height: 508px;
+  }
+
+  .info__image-second {
+    width: 550px;
+    height: 508px;
+  }
   
   .image__photo:nth-child(2) {
-    width: 450px;
-    height: 408px;
+    width: 550px;
+    height: 508px;
   }
   
   .image__photo:nth-child(3) {
-    width: 450px;
-    height: 408px;
+    width: 550px;
+    height: 508px;
     margin-right: 0;
     margin-bottom: 0;
   }
@@ -634,10 +657,10 @@
    margin-right: 0;
   }
 
-  .info__image-second {
+  /* .info__image-second {
     width: 450px;
     height: 408px;
-  } 
+  }  */
 
   .info {
     flex-direction: column;
@@ -647,15 +670,31 @@
   .info__container {
     margin-right: 0;
   }
+
+  .shops__image {
+    width: 250px;
+    height: 130px;
+  } 
 }
 
 @media screen and (max-width: 1310px) {
 
-  .icons_type_mini {
+
+   .footer__container-info {
+    display: none;
+  }
+
+  .footer__container-info_type_mini {
     display: block;
   }
 
-  
+   .footer__item_type_mini {
+    display: block;
+  }
+
+  .icons_type_mini {
+    display: block;
+  }
 
   .nav {
     padding-left: 62px;
@@ -738,10 +777,6 @@
     padding-left: 62px;
     padding-right: 71px;
   }
-  .shops__image {
-    width: 250px;
-    height: 130px;
-  } 
 
   .footer__container-info_type_mini {
     margin-right: 40px;
@@ -923,6 +958,34 @@
 @media screen and (max-width: 890px) {
   .search_type_mini {
     max-width: 500px;
+  }
+
+    
+  .image__photo {
+    width: 450px;
+    height: 408px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+
+  .info__image-first {
+    width: 450px;
+    height: 408px;
+  }
+
+  .info__image-second {
+    width: 450px;
+    height: 408px;
+  }
+  
+  .image__photo:nth-child(2) {
+    width: 450px;
+    height: 408px;
+  }
+  
+  .image__photo:nth-child(3) {
+    width: 450px;
+    height: 408px;
   }
 }
 
